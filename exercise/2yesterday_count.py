@@ -1,0 +1,5 @@
+f = open('yesterday.txt', 'r')
+yesterday_lyric = f.read()
+print("YESTERDAY count = %d" % (yesterday_lyric.upper().count('YESTERDAY')))
+print("Yesterday count = %d" % (yesterday_lyric.count('Yesterday')))
+print("yesterday count = %d" % (yesterday_lyric.count('yesterday')))
